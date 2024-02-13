@@ -1,6 +1,12 @@
+# Introduction to Code Versioning with GIT
+
 # Agenda
 
-[The Case for Code Versioning](#getting-a-repository)
+[The Case for Code Versioning](#the-case-for-code-versioning)
+
+[GIT for Code Versioning](#git-for-code-versioning)
+
+[Basic GIT Commands](#basic-git-commands)
 
 [Getting a Repository](#getting-a-repository)
 
@@ -22,7 +28,6 @@
 
 
 ## The Case for Code Versioning
-============================
 * Versioning maintains snapshots of edited code, over time, with the ability to move forward and backward along that timeline
   * Save your brilliant idea for the whole team to use
   * Undo that unfortunate choice that ignored a fundamental assumption
@@ -36,7 +41,6 @@
 ![alt text](./github_flow.png)
 
 ## GIT for Code Versioning
-=======================
 * GIT is a Utility/App/Program to facilitate managing code versions
 * First created in 2005 as part of Linux Development Environment
 * Support Multiple Local Repositories that can be Conditionally Synchronized with each other
