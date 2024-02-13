@@ -1,5 +1,7 @@
 # Agenda
 
+[The Case for Code Versioning](#getting-a-repository)
+
 [Getting a Repository](#getting-a-repository)
 
 [Configuring GIT](#configuring-git)
@@ -17,6 +19,40 @@
 [Resolving Merge Conflicts](#resolving-conflicts)
 
 [Undoing That Thing You Just Did](#undoing-your-work)
+
+
+## The Case for Code Versioning
+============================
+* Versioning maintains snapshots of edited code, over time, with the ability to move forward and backward along that timeline
+  * Save your brilliant idea for the whole team to use
+  * Undo that unfortunate choice that ignored a fundamental assumption
+* The timeline may include forks and mergers of experiments tried and abandoned or propagated
+  * Try three things, test them in parallel, and keep the one you like best
+  * Change your mind and pick the other option that was almost as fast, but is more flexible
+* A single developer may benefit from code versioning, but a team of developers jointly modifying pieces of one project is likely to not succeed without code versioning
+  * That elegant algorithm your teammate wrote can't be used until you share your updated data prep step
+  * The person testing the code you shared last week needs a quick fix, but you are half way through a new, major update
+
+## GIT for Code Versioning
+=======================
+* GIT is a Utility/App/Program to facilitate managing code versions
+* First created in 2005 as part of Linux Development Environment
+* Support Multiple Local Repositories that can be Conditionally Synchronized with each other
+* Each Developer can have their own copy of everything, and can share updates with all, or some of, the other developers as they are ready for use
+
+## Basic Git Commands
+------------------
+* git **clone** : to create a local repository connected to a remote copy
+  * Often points to a central copy referenced as the "Origin"
+  * **git clone git@gitlab.uvm.edu:vermont-epscor/cyberinfrastructure.git cyberinf**
+* git **status** : to assess the state of a local repository
+  * List any untracked files or tracked files with uncommitted changes
+* git **add** : to add a new or updated file to the list of updates to be tracked
+   * Adds a file to the list to be included in the next commit
+* git **commit** : to formally commit a set of updates to a new snapshot of content
+  * Bundle all pending added changes into a retrievable snapshot
+* git **push** : share an updated local repository to update the central copy
+* git **pull** : update a local repository with updates from the central copy
 
 ## Getting a Repository
 * git clone
