@@ -33,6 +33,8 @@
   * That elegant algorithm your teammate wrote can't be used until you share your updated data prep step
   * The person testing the code you shared last week needs a quick fix, but you are half way through a new, major update
 
+![alt text](./github_flow.png)
+
 ## GIT for Code Versioning
 =======================
 * GIT is a Utility/App/Program to facilitate managing code versions
@@ -53,6 +55,8 @@
   * Bundle all pending added changes into a retrievable snapshot
 * git **push** : share an updated local repository to update the central copy
 * git **pull** : update a local repository with updates from the central copy
+
+![alt text](./four_stages.png)
 
 ## Getting a Repository
 * git clone
